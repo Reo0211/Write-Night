@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A617945B2F628D9700DE37C1 /* StarBirthOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617945A2F628D9700DE37C1 /* StarBirthOverlay.swift */; };
+		A617945D2F629B7800DE37C1 /* SupernovaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617945C2F629B7800DE37C1 /* SupernovaOverlay.swift */; };
+		A617945F2F629F2A00DE37C1 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617945E2F629F2A00DE37C1 /* LaunchView.swift */; };
+		A61794612F62A9ED00DE37C1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794602F62A9ED00DE37C1 /* SettingsView.swift */; };
+		A61794632F62C1A400DE37C1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794622F62C1A400DE37C1 /* OnboardingView.swift */; };
+		A61794652F62C3BA00DE37C1 /* TutorialOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794642F62C3BA00DE37C1 /* TutorialOverlay.swift */; };
+		A617946A2F62E30500DE37C1 /* sfx_star_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794662F62E30500DE37C1 /* sfx_star_1.wav */; };
+		A617946B2F62E30500DE37C1 /* sfx_star_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794672F62E30500DE37C1 /* sfx_star_2.wav */; };
+		A617946C2F62E30500DE37C1 /* sfx_star_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794682F62E30500DE37C1 /* sfx_star_3.wav */; };
+		A617946D2F62E30500DE37C1 /* sfx_star_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794692F62E30500DE37C1 /* sfx_star_4.wav */; };
+		A617946E2F62E30500DE37C1 /* sfx_star_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794662F62E30500DE37C1 /* sfx_star_1.wav */; };
+		A617946F2F62E30500DE37C1 /* sfx_star_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794672F62E30500DE37C1 /* sfx_star_2.wav */; };
+		A61794702F62E30500DE37C1 /* sfx_star_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794682F62E30500DE37C1 /* sfx_star_3.wav */; };
+		A61794712F62E30500DE37C1 /* sfx_star_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794692F62E30500DE37C1 /* sfx_star_4.wav */; };
+		A61794722F62E30500DE37C1 /* sfx_star_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794662F62E30500DE37C1 /* sfx_star_1.wav */; };
+		A61794732F62E30500DE37C1 /* sfx_star_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794672F62E30500DE37C1 /* sfx_star_2.wav */; };
+		A61794742F62E30500DE37C1 /* sfx_star_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794682F62E30500DE37C1 /* sfx_star_3.wav */; };
+		A61794752F62E30500DE37C1 /* sfx_star_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794692F62E30500DE37C1 /* sfx_star_4.wav */; };
+		A61794772F62E82400DE37C1 /* sfx_birth.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794762F62E82400DE37C1 /* sfx_birth.wav */; };
+		A61794782F62E82400DE37C1 /* sfx_birth.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794762F62E82400DE37C1 /* sfx_birth.wav */; };
+		A61794792F62E82400DE37C1 /* sfx_birth.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794762F62E82400DE37C1 /* sfx_birth.wav */; };
+		A617947B2F62E97400DE37C1 /* sfx_delete.wav in Resources */ = {isa = PBXBuildFile; fileRef = A617947A2F62E97400DE37C1 /* sfx_delete.wav */; };
+		A617947C2F62E97400DE37C1 /* sfx_delete.wav in Resources */ = {isa = PBXBuildFile; fileRef = A617947A2F62E97400DE37C1 /* sfx_delete.wav */; };
+		A617947D2F62E97400DE37C1 /* sfx_delete.wav in Resources */ = {isa = PBXBuildFile; fileRef = A617947A2F62E97400DE37C1 /* sfx_delete.wav */; };
+		A617947F2F62EDC600DE37C1 /* ShootingStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617947E2F62EDC600DE37C1 /* ShootingStarView.swift */; };
+		A61794812F62FFCB00DE37C1 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794802F62FFCB00DE37C1 /* Planet.swift */; };
+		A61794832F62FFE000DE37C1 /* PlanetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794822F62FFE000DE37C1 /* PlanetStore.swift */; };
+		A61794852F62FFEB00DE37C1 /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794842F62FFEB00DE37C1 /* PlanetViewModel.swift */; };
+		A61794892F63000A00DE37C1 /* AddPlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794882F63000A00DE37C1 /* AddPlanetView.swift */; };
+		A617948B2F63001600DE37C1 /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617948A2F63001600DE37C1 /* PlanetDetailView.swift */; };
+		A61794932F640F0100DE37C1 /* MilestoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794922F640F0100DE37C1 /* MilestoneManager.swift */; };
+		A61794952F640F1000DE37C1 /* MemoryPlanetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794942F640F1000DE37C1 /* MemoryPlanetType.swift */; };
+		A61794972F640F1A00DE37C1 /* MemoryPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794962F640F1A00DE37C1 /* MemoryPlanetViewModel.swift */; };
+		A61794992F64101D00DE37C1 /* MemoryPlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794982F64101D00DE37C1 /* MemoryPlanetDetailView.swift */; };
+		A617949B2F64131F00DE37C1 /* MilestoneUnlockOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617949A2F64131F00DE37C1 /* MilestoneUnlockOverlay.swift */; };
+		A617949D2F64267200DE37C1 /* PlanetFormationOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617949C2F64267200DE37C1 /* PlanetFormationOverlay.swift */; };
+		A617949F2F645A9200DE37C1 /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617949E2F645A9200DE37C1 /* PlanetListView.swift */; };
+		A61794A12F6460C700DE37C1 /* PlanetTapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794A02F6460C700DE37C1 /* PlanetTapOverlay.swift */; };
+		A61794A52F6461B400DE37C1 /* sfx_planet_tap_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794A32F6461B400DE37C1 /* sfx_planet_tap_2.wav */; };
+		A61794A62F6461B400DE37C1 /* sfx_planet_tap_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794A42F6461B400DE37C1 /* sfx_planet_tap_3.wav */; };
+		A61794A72F6461B400DE37C1 /* sfx_planet_tap_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A61794A22F6461B400DE37C1 /* sfx_planet_tap_1.wav */; };
+		A61794A82F64636700DE37C1 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794862F63000000DE37C1 /* PlanetView.swift */; };
+		A61794AA2F646B8B00DE37C1 /* MoonExpiredBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61794A92F646B8B00DE37C1 /* MoonExpiredBanner.swift */; };
+		A69784E92F60641C007A5362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69784E82F60641C007A5362 /* Assets.xcassets */; };
+		A69785202F606462007A5362 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69785172F606462007A5362 /* MemoStore.swift */; };
+		A69785212F606462007A5362 /* SkyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697851E2F606462007A5362 /* SkyView.swift */; };
+		A69785222F606462007A5362 /* MemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69785192F606462007A5362 /* MemoViewModel.swift */; };
+		A69785232F606462007A5362 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69785102F606462007A5362 /* Renderer.swift */; };
+		A69785242F606462007A5362 /* GalaxyStarPlacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69785162F606462007A5362 /* GalaxyStarPlacer.swift */; };
+		A69785252F606462007A5362 /* SkyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697851A2F606462007A5362 /* SkyViewModel.swift */; };
+		A69785262F606462007A5362 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69785132F606462007A5362 /* Memo.swift */; };
+		A69785272F606462007A5362 /* AddMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697851C2F606462007A5362 /* AddMemoView.swift */; };
+		A69785282F606462007A5362 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A69785112F606462007A5362 /* Shaders.metal */; };
+		A69785292F606462007A5362 /* MetalStarFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697850F2F606462007A5362 /* MetalStarFieldView.swift */; };
+		A697852A2F606462007A5362 /* NightThoughtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697850C2F606462007A5362 /* NightThoughtApp.swift */; };
+		A697852B2F606462007A5362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697850B2F606462007A5362 /* ContentView.swift */; };
+		A697852C2F606462007A5362 /* MemoDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697851D2F606462007A5362 /* MemoDetailCard.swift */; };
+		A697852D2F606462007A5362 /* StarRenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69785142F606462007A5362 /* StarRenderData.swift */; };
+		A69785352F615706007A5362 /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69785342F615706007A5362 /* MemoListView.swift */; };
+		A697853D2F61704F007A5362 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697853C2F61704F007A5362 /* AudioManager.swift */; };
+		A697853F2F6170A2007A5362 /* Night Thought.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697853E2F6170A2007A5362 /* Night Thought.wav */; };
+		A69785402F6170A2007A5362 /* Night Thought.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697853E2F6170A2007A5362 /* Night Thought.wav */; };
+		A69785412F6170A2007A5362 /* Night Thought.wav in Resources */ = {isa = PBXBuildFile; fileRef = A697853E2F6170A2007A5362 /* Night Thought.wav */; };
+		A69785452F61729E007A5362 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69785442F61729E007A5362 /* MotionManager.swift */; };
+		A6D0DC892F6579C500A61972 /* StandClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0DC882F6579C500A61972 /* StandClockView.swift */; };
+		A6D0DC8B2F65870000A61972 /* CometView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0DC8A2F65870000A61972 /* CometView.swift */; };
+		A6D0DC8D2F658D4F00A61972 /* EndRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0DC8C2F658D4F00A61972 /* EndRollView.swift */; };
+		A6D0DC8F2F65927800A61972 /* TipStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0DC8E2F65927800A61972 /* TipStore.swift */; };
+		A6D0DC912F65928D00A61972 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0DC902F65928D00A61972 /* TipView.swift */; };
+		A6D0DC9E2F679D0100A61972 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DC9D2F679D0100A61972 /* StoreKit.framework */; };
+		A6D0DCA02F67A43300A61972 /* TipProducts.storekit in Resources */ = {isa = PBXBuildFile; fileRef = A6D0DC9F2F67A43300A61972 /* TipProducts.storekit */; };
+		A6D0DCA12F67A43300A61972 /* TipProducts.storekit in Resources */ = {isa = PBXBuildFile; fileRef = A6D0DC9F2F67A43300A61972 /* TipProducts.storekit */; };
+		A6D0DCA22F67A43300A61972 /* TipProducts.storekit in Resources */ = {isa = PBXBuildFile; fileRef = A6D0DC9F2F67A43300A61972 /* TipProducts.storekit */; };
+		A6D0DCA42F67C97700A61972 /* SpaceRippleOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D0DCA32F67C97700A61972 /* SpaceRippleOverlay.swift */; };
+		A6D0DCAC2F67CAFD00A61972 /* sfx_space_ripple.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6D0DCAB2F67CAFD00A61972 /* sfx_space_ripple.wav */; };
+		A6D0DCAD2F67CAFD00A61972 /* sfx_space_ripple.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6D0DCAB2F67CAFD00A61972 /* sfx_space_ripple.wav */; };
+		A6D0DCAE2F67CAFD00A61972 /* sfx_space_ripple.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6D0DCAB2F67CAFD00A61972 /* sfx_space_ripple.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A69784EF2F60641C007A5362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69784D92F60641B007A5362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69784E02F60641B007A5362;
+			remoteInfo = NightThought;
+		};
+		A69784F92F60641C007A5362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69784D92F60641B007A5362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69784E02F60641B007A5362;
+			remoteInfo = NightThought;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A617945A2F628D9700DE37C1 /* StarBirthOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBirthOverlay.swift; sourceTree = "<group>"; };
+		A617945C2F629B7800DE37C1 /* SupernovaOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupernovaOverlay.swift; sourceTree = "<group>"; };
+		A617945E2F629F2A00DE37C1 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		A61794602F62A9ED00DE37C1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A61794622F62C1A400DE37C1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A61794642F62C3BA00DE37C1 /* TutorialOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialOverlay.swift; sourceTree = "<group>"; };
+		A61794662F62E30500DE37C1 /* sfx_star_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_star_1.wav; sourceTree = "<group>"; };
+		A61794672F62E30500DE37C1 /* sfx_star_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_star_2.wav; sourceTree = "<group>"; };
+		A61794682F62E30500DE37C1 /* sfx_star_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_star_3.wav; sourceTree = "<group>"; };
+		A61794692F62E30500DE37C1 /* sfx_star_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_star_4.wav; sourceTree = "<group>"; };
+		A61794762F62E82400DE37C1 /* sfx_birth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_birth.wav; sourceTree = "<group>"; };
+		A617947A2F62E97400DE37C1 /* sfx_delete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_delete.wav; sourceTree = "<group>"; };
+		A617947E2F62EDC600DE37C1 /* ShootingStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingStarView.swift; sourceTree = "<group>"; };
+		A61794802F62FFCB00DE37C1 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		A61794822F62FFE000DE37C1 /* PlanetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetStore.swift; sourceTree = "<group>"; };
+		A61794842F62FFEB00DE37C1 /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
+		A61794862F63000000DE37C1 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		A61794882F63000A00DE37C1 /* AddPlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlanetView.swift; sourceTree = "<group>"; };
+		A617948A2F63001600DE37C1 /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
+		A61794922F640F0100DE37C1 /* MilestoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneManager.swift; sourceTree = "<group>"; };
+		A61794942F640F1000DE37C1 /* MemoryPlanetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPlanetType.swift; sourceTree = "<group>"; };
+		A61794962F640F1A00DE37C1 /* MemoryPlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPlanetViewModel.swift; sourceTree = "<group>"; };
+		A61794982F64101D00DE37C1 /* MemoryPlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPlanetDetailView.swift; sourceTree = "<group>"; };
+		A617949A2F64131F00DE37C1 /* MilestoneUnlockOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneUnlockOverlay.swift; sourceTree = "<group>"; };
+		A617949C2F64267200DE37C1 /* PlanetFormationOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetFormationOverlay.swift; sourceTree = "<group>"; };
+		A617949E2F645A9200DE37C1 /* PlanetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
+		A61794A02F6460C700DE37C1 /* PlanetTapOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTapOverlay.swift; sourceTree = "<group>"; };
+		A61794A22F6461B400DE37C1 /* sfx_planet_tap_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_planet_tap_1.wav; sourceTree = "<group>"; };
+		A61794A32F6461B400DE37C1 /* sfx_planet_tap_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_planet_tap_2.wav; sourceTree = "<group>"; };
+		A61794A42F6461B400DE37C1 /* sfx_planet_tap_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_planet_tap_3.wav; sourceTree = "<group>"; };
+		A61794A92F646B8B00DE37C1 /* MoonExpiredBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonExpiredBanner.swift; sourceTree = "<group>"; };
+		A69784E12F60641B007A5362 /* NightThought.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightThought.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69784E82F60641C007A5362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A69784EE2F60641C007A5362 /* NightThoughtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightThoughtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69784F82F60641C007A5362 /* NightThoughtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightThoughtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A697850B2F606462007A5362 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A697850C2F606462007A5362 /* NightThoughtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightThoughtApp.swift; sourceTree = "<group>"; };
+		A697850F2F606462007A5362 /* MetalStarFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalStarFieldView.swift; sourceTree = "<group>"; };
+		A69785102F606462007A5362 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		A69785112F606462007A5362 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		A69785132F606462007A5362 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		A69785142F606462007A5362 /* StarRenderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRenderData.swift; sourceTree = "<group>"; };
+		A69785162F606462007A5362 /* GalaxyStarPlacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyStarPlacer.swift; sourceTree = "<group>"; };
+		A69785172F606462007A5362 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		A69785192F606462007A5362 /* MemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewModel.swift; sourceTree = "<group>"; };
+		A697851A2F606462007A5362 /* SkyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyViewModel.swift; sourceTree = "<group>"; };
+		A697851C2F606462007A5362 /* AddMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoView.swift; sourceTree = "<group>"; };
+		A697851D2F606462007A5362 /* MemoDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailCard.swift; sourceTree = "<group>"; };
+		A697851E2F606462007A5362 /* SkyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyView.swift; sourceTree = "<group>"; };
+		A69785342F615706007A5362 /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
+		A697853C2F61704F007A5362 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		A697853E2F6170A2007A5362 /* Night Thought.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Night Thought.wav"; sourceTree = "<group>"; };
+		A69785442F61729E007A5362 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		A6D0DC882F6579C500A61972 /* StandClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandClockView.swift; sourceTree = "<group>"; };
+		A6D0DC8A2F65870000A61972 /* CometView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometView.swift; sourceTree = "<group>"; };
+		A6D0DC8C2F658D4F00A61972 /* EndRollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndRollView.swift; sourceTree = "<group>"; };
+		A6D0DC8E2F65927800A61972 /* TipStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipStore.swift; sourceTree = "<group>"; };
+		A6D0DC902F65928D00A61972 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
+		A6D0DC9C2F66D3D200A61972 /* NightThought.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NightThought.entitlements; sourceTree = "<group>"; };
+		A6D0DC9D2F679D0100A61972 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A6D0DC9F2F67A43300A61972 /* TipProducts.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TipProducts.storekit; sourceTree = "<group>"; };
+		A6D0DCA32F67C97700A61972 /* SpaceRippleOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceRippleOverlay.swift; sourceTree = "<group>"; };
+		A6D0DCAB2F67CAFD00A61972 /* sfx_space_ripple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx_space_ripple.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A69784F12F60641C007A5362 /* NightThoughtTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NightThoughtTests;
+			sourceTree = "<group>";
+		};
+		A69784FB2F60641D007A5362 /* NightThoughtUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NightThoughtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69784DE2F60641B007A5362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D0DC9E2F679D0100A61972 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69784EB2F60641C007A5362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69784F52F60641C007A5362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69784D82F60641B007A5362 = {
+			isa = PBXGroup;
+			children = (
+				A6D0DC9F2F67A43300A61972 /* TipProducts.storekit */,
+				A69784F12F60641C007A5362 /* NightThoughtTests */,
+				A69784FB2F60641D007A5362 /* NightThoughtUITests */,
+				A69784E22F60641B007A5362 /* Products */,
+				A697850E2F606462007A5362 /* App  */,
+				A69785122F606462007A5362 /* Metal */,
+				A69785152F606462007A5362 /* Models */,
+				A69785182F606462007A5362 /* Services */,
+				A697851B2F606462007A5362 /* ViewModels */,
+				A697851F2F606462007A5362 /* Views */,
+				A697853E2F6170A2007A5362 /* Night Thought.wav */,
+				A61794662F62E30500DE37C1 /* sfx_star_1.wav */,
+				A61794672F62E30500DE37C1 /* sfx_star_2.wav */,
+				A61794682F62E30500DE37C1 /* sfx_star_3.wav */,
+				A61794692F62E30500DE37C1 /* sfx_star_4.wav */,
+				A6D0DCAB2F67CAFD00A61972 /* sfx_space_ripple.wav */,
+				A61794762F62E82400DE37C1 /* sfx_birth.wav */,
+				A617947A2F62E97400DE37C1 /* sfx_delete.wav */,
+				A61794A22F6461B400DE37C1 /* sfx_planet_tap_1.wav */,
+				A61794A32F6461B400DE37C1 /* sfx_planet_tap_2.wav */,
+				A61794A42F6461B400DE37C1 /* sfx_planet_tap_3.wav */,
+				A6D0DC922F6593D400A61972 /* Frameworks */,
+				A6D0DC9C2F66D3D200A61972 /* NightThought.entitlements */,
+			);
+			sourceTree = "<group>";
+		};
+		A69784E22F60641B007A5362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69784E12F60641B007A5362 /* NightThought.app */,
+				A69784EE2F60641C007A5362 /* NightThoughtTests.xctest */,
+				A69784F82F60641C007A5362 /* NightThoughtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A697850D2F606462007A5362 /*  Entry */ = {
+			isa = PBXGroup;
+			children = (
+				A697850B2F606462007A5362 /* ContentView.swift */,
+				A697850C2F606462007A5362 /* NightThoughtApp.swift */,
+				A69784E82F60641C007A5362 /* Assets.xcassets */,
+			);
+			path = " Entry";
+			sourceTree = "<group>";
+		};
+		A697850E2F606462007A5362 /* App  */ = {
+			isa = PBXGroup;
+			children = (
+				A697850D2F606462007A5362 /*  Entry */,
+			);
+			path = "App ";
+			sourceTree = "<group>";
+		};
+		A69785122F606462007A5362 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				A697850F2F606462007A5362 /* MetalStarFieldView.swift */,
+				A69785102F606462007A5362 /* Renderer.swift */,
+				A69785112F606462007A5362 /* Shaders.metal */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		A69785152F606462007A5362 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A69785132F606462007A5362 /* Memo.swift */,
+				A69785142F606462007A5362 /* StarRenderData.swift */,
+				A61794802F62FFCB00DE37C1 /* Planet.swift */,
+				A61794822F62FFE000DE37C1 /* PlanetStore.swift */,
+				A61794942F640F1000DE37C1 /* MemoryPlanetType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A69785182F606462007A5362 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A69785162F606462007A5362 /* GalaxyStarPlacer.swift */,
+				A69785172F606462007A5362 /* MemoStore.swift */,
+				A697853C2F61704F007A5362 /* AudioManager.swift */,
+				A69785442F61729E007A5362 /* MotionManager.swift */,
+				A61794922F640F0100DE37C1 /* MilestoneManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A697851B2F606462007A5362 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A69785192F606462007A5362 /* MemoViewModel.swift */,
+				A697851A2F606462007A5362 /* SkyViewModel.swift */,
+				A61794842F62FFEB00DE37C1 /* PlanetViewModel.swift */,
+				A61794962F640F1A00DE37C1 /* MemoryPlanetViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A697851F2F606462007A5362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A617945C2F629B7800DE37C1 /* SupernovaOverlay.swift */,
+				A697851C2F606462007A5362 /* AddMemoView.swift */,
+				A697851D2F606462007A5362 /* MemoDetailCard.swift */,
+				A61794982F64101D00DE37C1 /* MemoryPlanetDetailView.swift */,
+				A697851E2F606462007A5362 /* SkyView.swift */,
+				A69785342F615706007A5362 /* MemoListView.swift */,
+				A617945A2F628D9700DE37C1 /* StarBirthOverlay.swift */,
+				A617945E2F629F2A00DE37C1 /* LaunchView.swift */,
+				A61794602F62A9ED00DE37C1 /* SettingsView.swift */,
+				A61794622F62C1A400DE37C1 /* OnboardingView.swift */,
+				A61794642F62C3BA00DE37C1 /* TutorialOverlay.swift */,
+				A617947E2F62EDC600DE37C1 /* ShootingStarView.swift */,
+				A61794862F63000000DE37C1 /* PlanetView.swift */,
+				A6D0DCA32F67C97700A61972 /* SpaceRippleOverlay.swift */,
+				A61794882F63000A00DE37C1 /* AddPlanetView.swift */,
+				A617948A2F63001600DE37C1 /* PlanetDetailView.swift */,
+				A617949A2F64131F00DE37C1 /* MilestoneUnlockOverlay.swift */,
+				A617949C2F64267200DE37C1 /* PlanetFormationOverlay.swift */,
+				A617949E2F645A9200DE37C1 /* PlanetListView.swift */,
+				A61794A02F6460C700DE37C1 /* PlanetTapOverlay.swift */,
+				A61794A92F646B8B00DE37C1 /* MoonExpiredBanner.swift */,
+				A6D0DC882F6579C500A61972 /* StandClockView.swift */,
+				A6D0DC8A2F65870000A61972 /* CometView.swift */,
+				A6D0DC902F65928D00A61972 /* TipView.swift */,
+				A6D0DC8C2F658D4F00A61972 /* EndRollView.swift */,
+				A6D0DC8E2F65927800A61972 /* TipStore.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6D0DC922F6593D400A61972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D0DC9D2F679D0100A61972 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69784E02F60641B007A5362 /* NightThought */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69785022F60641D007A5362 /* Build configuration list for PBXNativeTarget "NightThought" */;
+			buildPhases = (
+				A69784DD2F60641B007A5362 /* Sources */,
+				A69784DE2F60641B007A5362 /* Frameworks */,
+				A69784DF2F60641B007A5362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightThought;
+			packageProductDependencies = (
+			);
+			productName = NightThought;
+			productReference = A69784E12F60641B007A5362 /* NightThought.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A69784ED2F60641C007A5362 /* NightThoughtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69785052F60641D007A5362 /* Build configuration list for PBXNativeTarget "NightThoughtTests" */;
+			buildPhases = (
+				A69784EA2F60641C007A5362 /* Sources */,
+				A69784EB2F60641C007A5362 /* Frameworks */,
+				A69784EC2F60641C007A5362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69784F02F60641C007A5362 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A69784F12F60641C007A5362 /* NightThoughtTests */,
+			);
+			name = NightThoughtTests;
+			packageProductDependencies = (
+			);
+			productName = NightThoughtTests;
+			productReference = A69784EE2F60641C007A5362 /* NightThoughtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A69784F72F60641C007A5362 /* NightThoughtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69785082F60641D007A5362 /* Build configuration list for PBXNativeTarget "NightThoughtUITests" */;
+			buildPhases = (
+				A69784F42F60641C007A5362 /* Sources */,
+				A69784F52F60641C007A5362 /* Frameworks */,
+				A69784F62F60641C007A5362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69784FA2F60641C007A5362 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A69784FB2F60641D007A5362 /* NightThoughtUITests */,
+			);
+			name = NightThoughtUITests;
+			packageProductDependencies = (
+			);
+			productName = NightThoughtUITests;
+			productReference = A69784F82F60641C007A5362 /* NightThoughtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69784D92F60641B007A5362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A69784E02F60641B007A5362 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					A69784ED2F60641C007A5362 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = A69784E02F60641B007A5362;
+					};
+					A69784F72F60641C007A5362 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = A69784E02F60641B007A5362;
+					};
+				};
+			};
+			buildConfigurationList = A69784DC2F60641B007A5362 /* Build configuration list for PBXProject "夜空の思考" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A69784D82F60641B007A5362;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A69784E22F60641B007A5362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69784E02F60641B007A5362 /* NightThought */,
+				A69784ED2F60641C007A5362 /* NightThoughtTests */,
+				A69784F72F60641C007A5362 /* NightThoughtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69784DF2F60641B007A5362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D0DCA22F67A43300A61972 /* TipProducts.storekit in Resources */,
+				A69785402F6170A2007A5362 /* Night Thought.wav in Resources */,
+				A69784E92F60641C007A5362 /* Assets.xcassets in Resources */,
+				A61794722F62E30500DE37C1 /* sfx_star_1.wav in Resources */,
+				A61794732F62E30500DE37C1 /* sfx_star_2.wav in Resources */,
+				A61794742F62E30500DE37C1 /* sfx_star_3.wav in Resources */,
+				A617947D2F62E97400DE37C1 /* sfx_delete.wav in Resources */,
+				A61794772F62E82400DE37C1 /* sfx_birth.wav in Resources */,
+				A61794752F62E30500DE37C1 /* sfx_star_4.wav in Resources */,
+				A61794A52F6461B400DE37C1 /* sfx_planet_tap_2.wav in Resources */,
+				A6D0DCAC2F67CAFD00A61972 /* sfx_space_ripple.wav in Resources */,
+				A61794A62F6461B400DE37C1 /* sfx_planet_tap_3.wav in Resources */,
+				A61794A72F6461B400DE37C1 /* sfx_planet_tap_1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69784EC2F60641C007A5362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D0DCA02F67A43300A61972 /* TipProducts.storekit in Resources */,
+				A617946E2F62E30500DE37C1 /* sfx_star_1.wav in Resources */,
+				A6D0DCAD2F67CAFD00A61972 /* sfx_space_ripple.wav in Resources */,
+				A617946F2F62E30500DE37C1 /* sfx_star_2.wav in Resources */,
+				A617947C2F62E97400DE37C1 /* sfx_delete.wav in Resources */,
+				A61794792F62E82400DE37C1 /* sfx_birth.wav in Resources */,
+				A61794702F62E30500DE37C1 /* sfx_star_3.wav in Resources */,
+				A61794712F62E30500DE37C1 /* sfx_star_4.wav in Resources */,
+				A69785412F6170A2007A5362 /* Night Thought.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69784F62F60641C007A5362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D0DCA12F67A43300A61972 /* TipProducts.storekit in Resources */,
+				A617946A2F62E30500DE37C1 /* sfx_star_1.wav in Resources */,
+				A6D0DCAE2F67CAFD00A61972 /* sfx_space_ripple.wav in Resources */,
+				A617946B2F62E30500DE37C1 /* sfx_star_2.wav in Resources */,
+				A617947B2F62E97400DE37C1 /* sfx_delete.wav in Resources */,
+				A61794782F62E82400DE37C1 /* sfx_birth.wav in Resources */,
+				A617946C2F62E30500DE37C1 /* sfx_star_3.wav in Resources */,
+				A617946D2F62E30500DE37C1 /* sfx_star_4.wav in Resources */,
+				A697853F2F6170A2007A5362 /* Night Thought.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69784DD2F60641B007A5362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61794612F62A9ED00DE37C1 /* SettingsView.swift in Sources */,
+				A61794932F640F0100DE37C1 /* MilestoneManager.swift in Sources */,
+				A617949F2F645A9200DE37C1 /* PlanetListView.swift in Sources */,
+				A617947F2F62EDC600DE37C1 /* ShootingStarView.swift in Sources */,
+				A617945D2F629B7800DE37C1 /* SupernovaOverlay.swift in Sources */,
+				A617948B2F63001600DE37C1 /* PlanetDetailView.swift in Sources */,
+				A617945F2F629F2A00DE37C1 /* LaunchView.swift in Sources */,
+				A69785202F606462007A5362 /* MemoStore.swift in Sources */,
+				A617949B2F64131F00DE37C1 /* MilestoneUnlockOverlay.swift in Sources */,
+				A69785212F606462007A5362 /* SkyView.swift in Sources */,
+				A6D0DC8F2F65927800A61972 /* TipStore.swift in Sources */,
+				A69785222F606462007A5362 /* MemoViewModel.swift in Sources */,
+				A69785232F606462007A5362 /* Renderer.swift in Sources */,
+				A61794652F62C3BA00DE37C1 /* TutorialOverlay.swift in Sources */,
+				A617945B2F628D9700DE37C1 /* StarBirthOverlay.swift in Sources */,
+				A69785242F606462007A5362 /* GalaxyStarPlacer.swift in Sources */,
+				A69785252F606462007A5362 /* SkyViewModel.swift in Sources */,
+				A61794992F64101D00DE37C1 /* MemoryPlanetDetailView.swift in Sources */,
+				A61794A12F6460C700DE37C1 /* PlanetTapOverlay.swift in Sources */,
+				A617949D2F64267200DE37C1 /* PlanetFormationOverlay.swift in Sources */,
+				A61794892F63000A00DE37C1 /* AddPlanetView.swift in Sources */,
+				A6D0DCA42F67C97700A61972 /* SpaceRippleOverlay.swift in Sources */,
+				A6D0DC8B2F65870000A61972 /* CometView.swift in Sources */,
+				A69785262F606462007A5362 /* Memo.swift in Sources */,
+				A61794952F640F1000DE37C1 /* MemoryPlanetType.swift in Sources */,
+				A69785272F606462007A5362 /* AddMemoView.swift in Sources */,
+				A69785352F615706007A5362 /* MemoListView.swift in Sources */,
+				A69785282F606462007A5362 /* Shaders.metal in Sources */,
+				A697853D2F61704F007A5362 /* AudioManager.swift in Sources */,
+				A61794972F640F1A00DE37C1 /* MemoryPlanetViewModel.swift in Sources */,
+				A69785292F606462007A5362 /* MetalStarFieldView.swift in Sources */,
+				A69785452F61729E007A5362 /* MotionManager.swift in Sources */,
+				A61794AA2F646B8B00DE37C1 /* MoonExpiredBanner.swift in Sources */,
+				A6D0DC8D2F658D4F00A61972 /* EndRollView.swift in Sources */,
+				A61794852F62FFEB00DE37C1 /* PlanetViewModel.swift in Sources */,
+				A697852A2F606462007A5362 /* NightThoughtApp.swift in Sources */,
+				A6D0DC892F6579C500A61972 /* StandClockView.swift in Sources */,
+				A6D0DC912F65928D00A61972 /* TipView.swift in Sources */,
+				A697852B2F606462007A5362 /* ContentView.swift in Sources */,
+				A61794A82F64636700DE37C1 /* PlanetView.swift in Sources */,
+				A697852C2F606462007A5362 /* MemoDetailCard.swift in Sources */,
+				A697852D2F606462007A5362 /* StarRenderData.swift in Sources */,
+				A61794832F62FFE000DE37C1 /* PlanetStore.swift in Sources */,
+				A61794632F62C1A400DE37C1 /* OnboardingView.swift in Sources */,
+				A61794812F62FFCB00DE37C1 /* Planet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69784EA2F60641C007A5362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69784F42F60641C007A5362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A69784F02F60641C007A5362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69784E02F60641B007A5362 /* NightThought */;
+			targetProxy = A69784EF2F60641C007A5362 /* PBXContainerItemProxy */;
+		};
+		A69784FA2F60641C007A5362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69784E02F60641B007A5362 /* NightThought */;
+			targetProxy = A69784F92F60641C007A5362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A69785002F60641D007A5362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LC5G8XZ78K;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A69785012F60641D007A5362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LC5G8XZ78K;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69785032F60641D007A5362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NightThought.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5G8XZ78K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reoto-Ando.NightThought";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A69785042F60641D007A5362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NightThought.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5G8XZ78K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reoto-Ando.NightThought";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A69785062F60641D007A5362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5G8XZ78K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reoto-Ando.NightThoughtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightThought.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NightThought";
+			};
+			name = Debug;
+		};
+		A69785072F60641D007A5362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5G8XZ78K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reoto-Ando.NightThoughtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightThought.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NightThought";
+			};
+			name = Release;
+		};
+		A69785092F60641D007A5362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5G8XZ78K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reoto-Ando.NightThoughtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NightThought;
+			};
+			name = Debug;
+		};
+		A697850A2F60641D007A5362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5G8XZ78K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Reoto-Ando.NightThoughtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NightThought;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69784DC2F60641B007A5362 /* Build configuration list for PBXProject "夜空の思考" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69785002F60641D007A5362 /* Debug */,
+				A69785012F60641D007A5362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69785022F60641D007A5362 /* Build configuration list for PBXNativeTarget "NightThought" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69785032F60641D007A5362 /* Debug */,
+				A69785042F60641D007A5362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69785052F60641D007A5362 /* Build configuration list for PBXNativeTarget "NightThoughtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69785062F60641D007A5362 /* Debug */,
+				A69785072F60641D007A5362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69785082F60641D007A5362 /* Build configuration list for PBXNativeTarget "NightThoughtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69785092F60641D007A5362 /* Debug */,
+				A697850A2F60641D007A5362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69784D92F60641B007A5362 /* Project object */;
+}
